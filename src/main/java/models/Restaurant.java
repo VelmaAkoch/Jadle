@@ -9,6 +9,13 @@ public class Restaurant {
     private String email;
     private int id;
 
+    public Restaurant(String name, String address, String zipcode, String phone) {
+        this.name = name;
+        this.address = address;
+        this.zipcode = zipcode;
+        this.phone = phone;
+    }
+
     public Restaurant(String name, String address, String zipcode, String phone, String website, String email) {
         this.name = name;
         this.address = address;
